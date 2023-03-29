@@ -105,7 +105,7 @@ def sign_file(input_file: str, signatureID: str, x_coordinate: int,
         pg.AnnotPushBack(sigField)
     # Signature image
     sign_filename = os.path.dirname(
-        os.path.abspath(__file__)) + "/image/ycq.png"
+        os.path.abspath(__file__)) + "/image/ycq.jpg"
     # Self signed certificate
     pk_filename = os.path.dirname(
         os.path.abspath(__file__)) + "/static/container.pfx"
